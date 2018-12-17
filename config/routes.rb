@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :runners, only: [:index, :update, :create]
-      resources :runs, only: [:index, :update, :create]
+      resources :runners, only: [:index, :show, :update, :create]
+      resources :runs, only: [:index, :show, :update, :create]
     end
   end
 
