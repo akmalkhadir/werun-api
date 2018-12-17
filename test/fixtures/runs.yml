@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  start_location: MyString
+  end_location: MyString
+  date: 2018-12-17 09:37:06
+  distance: 1.5
+  private: false
+
+two:
+  name: MyString
+  description: MyString
+  start_location: MyString
+  end_location: MyString
+  date: 2018-12-17 09:37:06
+  distance: 1.5
+  private: false
