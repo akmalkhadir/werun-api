@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_17_100948) do
+ActiveRecord::Schema.define(version: 2018_12_18_184951) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 2018_12_17_100948) do
     t.string "end_location"
     t.datetime "date"
     t.float "distance"
-    t.boolean "private"
+    t.boolean "is_private"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "runner_id"
