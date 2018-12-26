@@ -17,7 +17,11 @@ class Api::V1::RunnersRunsController < ApplicationController
 
   def destroy
     @runners_run = RunnersRun.find_by(runners_run_params)
-    @runners_run.destroy!
+    if @runners_run.destroy!
+      render json: {message: 'Run unjoined successfully'}, status: 200
+    else
+      render json: {error: 'Unable to unjoin a run!'}, status: 400
+    end
   end
 
   private

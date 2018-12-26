@@ -4,7 +4,6 @@ class Api::V1::RunSerializer < ActiveModel::Serializer
   attribute :end_location, key: :endLocation
   attribute :is_private, key: :isPrivate
   attribute :host
-
   has_many :attendees
 
   def host
@@ -13,4 +12,5 @@ class Api::V1::RunSerializer < ActiveModel::Serializer
       hostUsername: self.object.host.username
     }
   end
+
 end
