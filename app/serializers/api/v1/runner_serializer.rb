@@ -2,6 +2,7 @@ class Api::V1::RunnerSerializer < ActiveModel::Serializer
   attributes :id, :name, :username
   has_many :upcoming_runs, key: :upcomingRuns
   has_many :past_runs, key: :pastRuns
+  has_many :attended_runs, serializer: Api::V1::RunSerializer
 
 
   def name
