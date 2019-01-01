@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_18_184951) do
+ActiveRecord::Schema.define(version: 2018_12_29_190307) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2018_12_18_184951) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "runners_runs", id: false, force: :cascade do |t|
+  create_table "runners_runs", force: :cascade do |t|
     t.bigint "runner_id", null: false
     t.bigint "run_id", null: false
     t.index ["run_id", "runner_id"], name: "index_runners_runs_on_run_id_and_runner_id"
@@ -42,6 +42,10 @@ ActiveRecord::Schema.define(version: 2018_12_18_184951) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "runner_id"
+    t.decimal "start_lat", precision: 10, scale: 6
+    t.decimal "start_lng", precision: 10, scale: 6
+    t.decimal "end_lat", precision: 10, scale: 6
+    t.decimal "end_lng", precision: 10, scale: 6
     t.index ["runner_id"], name: "index_runs_on_runner_id"
   end
 

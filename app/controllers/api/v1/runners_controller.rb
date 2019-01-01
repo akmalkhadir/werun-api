@@ -1,6 +1,6 @@
 class Api::V1::RunnersController < ApplicationController
 
-  before_action :set_runner, only: [:show]
+  before_action :set_runner, only: [:show, :update]
 
   def index
     @runners = Runner.all
@@ -11,6 +11,14 @@ class Api::V1::RunnersController < ApplicationController
     render json: @runner
   end
 
+  def update
+    if @runner.runners_runs.create!(runner_params)
+       render json: @runner
+    else
+      render json: {error: 'Unable to create join this run.'}, status: 400
+    end
+  end
+
   private
 
   def set_runner
@@ -18,6 +26,6 @@ class Api::V1::RunnersController < ApplicationController
   end
 
   def runner_params
-    params.require(:runner).permit(:id)
+    params.require(:runner).permit(:id, :run_id)
   end
 end
