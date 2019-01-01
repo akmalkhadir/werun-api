@@ -1,6 +1,7 @@
 class Api::V1::RunnersController < ApplicationController
 
   before_action :set_runner, only: [:show, :update]
+  before_action :authenticate_user
 
   def index
     @runners = Runner.all

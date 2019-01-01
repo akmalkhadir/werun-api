@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :runs, only: [:index, :show, :update, :create]
       resources :runners_runs, only: [:index, :create]
       delete '/runners_runs', to: 'runners_runs#destroy'
+        root 'home#index'
     end
   end
 
