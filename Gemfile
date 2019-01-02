@@ -48,3 +48,4 @@ gem 'active_model_serializers'
 
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'knock'
+gem 'seed_dump'
