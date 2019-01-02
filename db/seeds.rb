@@ -1,3 +1,27 @@
+Runner.create!([
+  {first_name: "Donia", last_name: "Costanza", username: "dcostanza", password_digest: "$2a$10$54mu8Cp3rbjHFGb8eabAQeoKeNvHrwVsM.q0fko2MTyq4UHy3fAoq", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Michaeline", last_name: "Avrashin", username: "mavrashin", password_digest: "$2a$10$xzZi9HtQ3wfkSMNzo/C.ZewaUP98N1NyPj99GqEllsQwm5RxWdfHm", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "John", last_name: "Bramhill", username: "jbramhill", password_digest: "$2a$10$p5uDo4a40Ms9IgDFpQGq5u5UN6cjqiq23BkL7Zfx5cBzV6rYI4GQi", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Caroline", last_name: "Folder", username: "cfolder", password_digest: "$2a$10$qLEVHe1xmWiip6f4OvFug.z9Q48XqywMmA0obeSOjKaf2tnVYWFXa", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Clevie", last_name: "Kennett", username: "ckennett", password_digest: "$2a$10$tRIOmiyM4gfCIMqrai/2YO9Yoip4i2HDotdsWfSp3oNRnTJYJuRya", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Emory", last_name: "Seagood", username: "eseagood", password_digest: "$2a$10$iavW5qdKIW2LHfeDe0KSsO0b./s5bejxA70jfg8t0NkPtGWX/Vw6G", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Noelle", last_name: "Dizlie", username: "ndizlie", password_digest: "$2a$10$NfKhD8hJdIteImM4NKql1ugSUcg5aakZJCjKOHJtL.K3msS6Db4du", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Sloane", last_name: "Brute", username: "sbrute", password_digest: "$2a$10$OAj8VX49qSN5cckbrolPeOknK02R5CkIu4BsUd8tGVL.rw6cH29em", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Winny", last_name: "Smiley", username: "wsmiley", password_digest: "$2a$10$gTFDYmrWKrHT3oxgiGFDDuecASjrhXbYGx3mcFqLm.VmYGy6Icm6i", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Ruggiero", last_name: "Slowly", username: "rslowly", password_digest: "$2a$10$pdfYQdnPmC16eLw1.IKtnO.4rBUi3rnJPeUlZ5NDnL5SIbAzSNihG", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Filia", last_name: "Al Hirsi", username: "fal hirsi", password_digest: "$2a$10$K7ZeyCMsBqs0nDNmpBhUk.wBzstLgEKAeYLilGiPI9qjS4EHN0spC", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Hadria", last_name: "Lutzmann", username: "hlutzmann", password_digest: "$2a$10$IpTYZWVfWBb/WUM1z7EZOuDoezDyRHARJN2INkkCVcwbzGqtBuHyi", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Michail", last_name: "Wolfit", username: "mwolfit", password_digest: "$2a$10$7BV5OlrATmTAUm/7hbkE8eqoVjh9m7WlsJwCCsInZffcz4Wt00HAe", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Shirlee", last_name: "Sidlow", username: "ssidlow", password_digest: "$2a$10$UOoepqTvsQEfa7TZ3HE41esr1hPFAusPpELAhsxVaH7jHk/GGj4dS", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Lib", last_name: "Haddrell", username: "lhaddrell", password_digest: "$2a$10$g/KtjUjp9PLdTjT6n4JoTOH6BEg/qBHrhrmJh7UWyGdtUsi2IZeyG", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Clarence", last_name: "Edmonstone", username: "cedmonstone", password_digest: "$2a$10$mPH1/3aoGqj/p0JyGIVf7OuPY1P8sWz6OBnRd3Bb2I1N009Nz9ue2", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Carolan", last_name: "Carress", username: "ccarress", password_digest: "$2a$10$x1nxin6iFt5AEAa2vAHv.uhMrrraeOejzVJoPGvTWe2XqZv61DANe", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Diannne", last_name: "Izzatt", username: "dizzatt", password_digest: "$2a$10$5LjyuERkvUxo7QLt4HYo1eLXbUDSMTY2Eqk/KlksMzMsJIffOy5VS", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Abrahan", last_name: "Dearnaly", username: "adearnaly", password_digest: "$2a$10$vB9hP4eF3yrau/FH0woZ.e4r6Tob8H2h5ZwecPfQKaEwfOD6WUyIC", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Man", last_name: "Knotton", username: "mknotton", password_digest: "$2a$10$xO0mWUl0wBAY2mk3ZCx.3.qpAXvl2xirL0map5tkyvxIGRXS3j9XS", email: nil, image_url: nil, city: nil, bio: nil},
+  {first_name: "Akmal", last_name: "Khadir", username: "akmalkhadir", password_digest: "$2a$10$5RjdLBinzqjz7nOJCKh8teAhnVUMYIP7J0OElY.eGzx5SsRwUwbiC", email: "akmal.khadir@yahoo.com", image_url: "https://akmalkhadir.com/wp-content/uploads/2019/01/akmal_profile.jpg", city: "London, UK", bio: "Everyday I run, run, run till I turn yellow,\ncause you ain’t a runner if you’re \nnot yellow."}
+])
+
 Run.create!([
   {name: "New Year's Run", description: "Kick start your new year by clocking some miles. We will start at Victoria Gate, Hyde Park and finishes at Hyde Park Corner after 2 loops.", start_location: "Victoria Gate, Hyde Park", end_location: "Hyde Park Corner", date: "2018-05-03 10:00:00", distance: 10.0, is_private: false, runner_id: 21, start_lat: nil, start_lng: nil, end_lat: nil, end_lng: nil},
   {name: "Where's Wally? fun run!", description: "Walk, jog or run your way around Clapham Common and help give vital literacy skills to disadvantaged kids in the UK.", start_location: "Clapham Common, London", end_location: "Very Common, London", date: "2018-12-19 12:45:00", distance: 5.0, is_private: false, runner_id: 1, start_lat: nil, start_lng: nil, end_lat: nil, end_lng: nil},
@@ -29,29 +53,7 @@ Run.create!([
   {name: "London Landmarks Half Marathon", description: "Back for it's second year, the London Landmarks Half Marathon is a closed road, flat, central London run and is the only half marathon to go through both the City of London and City of Westminster.\n\nThe event is not your average half marathon! From cultural landmarks and heritage to the city's quirky and hidden secrets, runners get to explore the capital on a route like no other!", start_location: "Pall Mall", end_location: "Downing Street", date: "2019-03-24 09:30:00", distance: 21.6, is_private: false, runner_id: 21, start_lat: "51.507197", start_lng: "-0.132344", end_lat: "51.503167", end_lng: "-0.126211"},
   {name: "Peckham 10K", description: "Hello runners it is coming around to the time of the 10k run in Peckham\n\nThe route is 1600m + 3laps. On race completion you will be awarded a medal and t-shirt to show off to all your friends! There will also be trophies for the top three male and female runners!", start_location: "Peckham Rye Common", end_location: "Peckham Rye Park", date: "2019-01-14 04:56:26", distance: 10.0, is_private: false, runner_id: 21, start_lat: "51.461439", start_lng: "-0.065028", end_lat: "51.456463", end_lng: "-0.06007"}
 ])
-Runner.create!([
-  {first_name: "Donia", last_name: "Costanza", username: "dcostanza", password_digest: "$2a$10$54mu8Cp3rbjHFGb8eabAQeoKeNvHrwVsM.q0fko2MTyq4UHy3fAoq", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Michaeline", last_name: "Avrashin", username: "mavrashin", password_digest: "$2a$10$xzZi9HtQ3wfkSMNzo/C.ZewaUP98N1NyPj99GqEllsQwm5RxWdfHm", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "John", last_name: "Bramhill", username: "jbramhill", password_digest: "$2a$10$p5uDo4a40Ms9IgDFpQGq5u5UN6cjqiq23BkL7Zfx5cBzV6rYI4GQi", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Caroline", last_name: "Folder", username: "cfolder", password_digest: "$2a$10$qLEVHe1xmWiip6f4OvFug.z9Q48XqywMmA0obeSOjKaf2tnVYWFXa", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Clevie", last_name: "Kennett", username: "ckennett", password_digest: "$2a$10$tRIOmiyM4gfCIMqrai/2YO9Yoip4i2HDotdsWfSp3oNRnTJYJuRya", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Emory", last_name: "Seagood", username: "eseagood", password_digest: "$2a$10$iavW5qdKIW2LHfeDe0KSsO0b./s5bejxA70jfg8t0NkPtGWX/Vw6G", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Noelle", last_name: "Dizlie", username: "ndizlie", password_digest: "$2a$10$NfKhD8hJdIteImM4NKql1ugSUcg5aakZJCjKOHJtL.K3msS6Db4du", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Sloane", last_name: "Brute", username: "sbrute", password_digest: "$2a$10$OAj8VX49qSN5cckbrolPeOknK02R5CkIu4BsUd8tGVL.rw6cH29em", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Winny", last_name: "Smiley", username: "wsmiley", password_digest: "$2a$10$gTFDYmrWKrHT3oxgiGFDDuecASjrhXbYGx3mcFqLm.VmYGy6Icm6i", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Ruggiero", last_name: "Slowly", username: "rslowly", password_digest: "$2a$10$pdfYQdnPmC16eLw1.IKtnO.4rBUi3rnJPeUlZ5NDnL5SIbAzSNihG", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Filia", last_name: "Al Hirsi", username: "fal hirsi", password_digest: "$2a$10$K7ZeyCMsBqs0nDNmpBhUk.wBzstLgEKAeYLilGiPI9qjS4EHN0spC", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Hadria", last_name: "Lutzmann", username: "hlutzmann", password_digest: "$2a$10$IpTYZWVfWBb/WUM1z7EZOuDoezDyRHARJN2INkkCVcwbzGqtBuHyi", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Michail", last_name: "Wolfit", username: "mwolfit", password_digest: "$2a$10$7BV5OlrATmTAUm/7hbkE8eqoVjh9m7WlsJwCCsInZffcz4Wt00HAe", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Shirlee", last_name: "Sidlow", username: "ssidlow", password_digest: "$2a$10$UOoepqTvsQEfa7TZ3HE41esr1hPFAusPpELAhsxVaH7jHk/GGj4dS", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Lib", last_name: "Haddrell", username: "lhaddrell", password_digest: "$2a$10$g/KtjUjp9PLdTjT6n4JoTOH6BEg/qBHrhrmJh7UWyGdtUsi2IZeyG", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Clarence", last_name: "Edmonstone", username: "cedmonstone", password_digest: "$2a$10$mPH1/3aoGqj/p0JyGIVf7OuPY1P8sWz6OBnRd3Bb2I1N009Nz9ue2", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Carolan", last_name: "Carress", username: "ccarress", password_digest: "$2a$10$x1nxin6iFt5AEAa2vAHv.uhMrrraeOejzVJoPGvTWe2XqZv61DANe", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Diannne", last_name: "Izzatt", username: "dizzatt", password_digest: "$2a$10$5LjyuERkvUxo7QLt4HYo1eLXbUDSMTY2Eqk/KlksMzMsJIffOy5VS", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Abrahan", last_name: "Dearnaly", username: "adearnaly", password_digest: "$2a$10$vB9hP4eF3yrau/FH0woZ.e4r6Tob8H2h5ZwecPfQKaEwfOD6WUyIC", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Man", last_name: "Knotton", username: "mknotton", password_digest: "$2a$10$xO0mWUl0wBAY2mk3ZCx.3.qpAXvl2xirL0map5tkyvxIGRXS3j9XS", email: nil, image_url: nil, city: nil, bio: nil},
-  {first_name: "Akmal", last_name: "Khadir", username: "akmalkhadir", password_digest: "$2a$10$5RjdLBinzqjz7nOJCKh8teAhnVUMYIP7J0OElY.eGzx5SsRwUwbiC", email: "akmal.khadir@yahoo.com", image_url: "https://akmalkhadir.com/wp-content/uploads/2019/01/akmal_profile.jpg", city: "London, UK", bio: "Everyday I run, run, run till I turn yellow,\ncause you ain’t a runner if you’re \nnot yellow."}
-])
+
 RunnersRun.create!([
   {runner_id: 2, run_id: 1},
   {runner_id: 3, run_id: 1},
